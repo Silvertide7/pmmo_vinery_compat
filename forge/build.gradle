@@ -11,6 +11,9 @@ loom {
     accessWidenerPath = project(":common").loom.accessWidenerPath
 
     forge {
+        mixinConfigs = [
+                "pmmo_vinery_compat.mixins.json"
+        ]
         convertAccessWideners = true
         extraAccessWideners.add loom.accessWidenerPath.get().asFile.name
     }

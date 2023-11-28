@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "id": "nethervinery",
+  "id": "pmmo_vinery_compat",
   "version": "${version}",
-  "name": "Nether Vinery",
-  "description": "Welcome to Nether Vinery! New grapes, new decor - all in the style of the Nether.",
+  "name": "Project MMO: Vinery Compat",
+  "description": "Adds compatibiility between Project MMO and Vinery",
   "authors": [
     "Silvertide"
   ],
   "contact": {
-    "sources": "https://github.com/satisfyu/NetherVinery"
+    "sources": "https://github.com/Silvertide7/pmmo_vinery_compat"
   },
   "license": "ARR",
   "environment": "*",
