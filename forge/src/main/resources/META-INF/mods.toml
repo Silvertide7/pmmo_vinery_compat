@@ -1,0 +1,49 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+#issueTrackerURL = ""
+license = "Insert License Here"
+
+[[mods]]
+modId = "pmmo_vinery_compat"
+version = "${version}"
+displayName = "PMMO Vinery Compat"
+authors = "satisfyu"
+description = '''
+Add compatibility between Project MMO and Vinery.
+'''
+#logoFile = ""
+
+[[dependencies.pmmo_vinery_compat]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.pmmo_vinery_compat]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.pmmo_vinery_compat]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.0.8,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.pmmo_vinery_compat]]
+modId = "vinery"
+mandatory = true
+versionRange = "[1.4.6,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.pmmo_vinery_compat]]
+modId = "doapi"
+mandatory = true
+versionRange = "[1.2.7,)"
+ordering = "AFTER"
+side = "BOTH"

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "nethervinery",
+  "version": "${version}",
+  "name": "Nether Vinery",
+  "description": "Welcome to Nether Vinery! New grapes, new decor - all in the style of the Nether.",
+  "authors": [
+    "Silvertide"
+  ],
+  "contact": {
+    "sources": "https://github.com/satisfyu/NetherVinery"
+  },
+  "license": "ARR",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.silvertide.pmmo_vinery_compat.fabric.PMMOVineryCompatFabric"
+    ],
+    "client": [
+      "net.silvertide.pmmo_vinery_compat.fabric.client.PMMOVineryCompatClientFabric"
+    ],
+    "preLaunch": [
+      "net.silvertide.pmmo_vinery_compat.fabric.PMMOVineryCompatFabricPre"
+    ],
+    "doapi": [
+      "net.silvertide.pmmo_vinery_compat.util.api.PMMOVineryCompatDoApi"
+    ]
+  },
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.19.2",
+    "architectury": ">=6.5.77",
+    "vinery": ">=1.3.12"
+  }
+}
