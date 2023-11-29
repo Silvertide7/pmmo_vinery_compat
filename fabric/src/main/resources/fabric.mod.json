@@ -18,12 +18,6 @@
     ],
     "client": [
       "net.silvertide.pmmo_vinery_compat.fabric.client.PMMOVineryCompatClientFabric"
-    ],
-    "preLaunch": [
-      "net.silvertide.pmmo_vinery_compat.fabric.PMMOVineryCompatFabricPre"
-    ],
-    "doapi": [
-      "net.silvertide.pmmo_vinery_compat.util.api.PMMOVineryCompatDoApi"
     ]
   },
   "depends": {

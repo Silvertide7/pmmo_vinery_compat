@@ -29,6 +29,7 @@ configurations {
 
 dependencies {
     forge "net.minecraftforge:forge:${rootProject.forge_version}"
+    modImplementation "maven.modrinth:project-mmo:${project.pmmo_version}-forge"
     modImplementation "maven.modrinth:do-api:${project.doapi_version}-forge"
     modImplementation "maven.modrinth:vinery:${project.vinery_version}-forge"
     modApi "dev.architectury:architectury-forge:${rootProject.architectury_version}"
